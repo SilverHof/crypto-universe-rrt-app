@@ -1,0 +1,15 @@
+@import "../../../../scss/variables";
+
+.navbar-item {
+   position: relative;
+
+   &__text {
+      color: $white-color;
+      cursor: pointer;
+      transition: 0.5s;
+   
+      &:hover {
+         color: $yellow-color;
+      }
+   }
+}

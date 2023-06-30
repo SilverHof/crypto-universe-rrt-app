@@ -1,0 +1,24 @@
+@import '../../scss/variables';
+
+.news-crypto-page {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+   &__title-box {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+   }
+
+   &__title-text {
+      color: $yellow-color;
+      font-size: 24px;
+   }
+
+   &__title-decor {
+      width: 100%;
+      height: 3px;
+      background-color: $yellow-color;
+   }
+}

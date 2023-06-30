@@ -1,0 +1,7 @@
+@import '../../../scss/variables';
+
+.news-list {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}

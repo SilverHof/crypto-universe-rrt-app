@@ -1,0 +1,87 @@
+@import '../../../scss/variables';
+
+.content {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 35%;
+
+   color: $white-color;
+   &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      align-self: center;
+      width: 200px;
+      height: 200px;
+   }
+
+   &__name {
+      align-self: center;
+      color: $yellow-color;
+      font-size: 24px;
+      font-weight: 500;
+   }
+
+   &__description {
+      font-size: 14px;
+      overflow-y: scroll;
+      height: 200px;
+
+      margin-bottom: 20px;
+   }
+
+   &__price {
+
+      span {
+         color: $yellow-color;
+      }
+   }
+
+   &__market-cap {
+
+      span {
+         color: $yellow-color;
+      }
+   }
+
+   &__rank {
+      margin-bottom: 20px;
+      span {
+         color: $yellow-color;
+      }
+   }
+
+   &__links {
+      align-self: center;
+   }
+
+   &__link-item {
+
+   }
+
+   &__link-text {
+      color: $yellow-color;
+
+      &:hover {
+         color: $white-color;
+      }
+   }
+
+   ::-webkit-scrollbar {
+      width: 10px;
+      background:#131519;
+   }
+  
+   ::-webkit-scrollbar-track {
+      -webkit-box-shadow: #EDEA52;; 
+      border-radius: 15px;
+   }
+  
+   ::-webkit-scrollbar-thumb {
+      border-radius: 15px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+      background:#EDEA52;
+   } 
+}

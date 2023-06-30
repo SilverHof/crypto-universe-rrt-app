@@ -1,0 +1,49 @@
+@import '../../scss/variables';
+
+.footer {   
+   
+   &__container {
+
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-evenly;
+
+      width: 100%;
+
+      border-radius: 20px;
+      padding: 30px;
+      background-color: $bright-black-color;
+   }
+
+   &__lists {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   &__list-item {
+      
+   }
+
+   &__list-item-title {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: $yellow-color;
+   }
+
+   &__list-item-link {
+      color: $white-color;
+
+      &:hover {
+         color: $yellow-color;
+
+      }
+   }
+}

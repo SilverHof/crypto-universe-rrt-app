@@ -1,0 +1,36 @@
+@import '../../scss/variables';
+
+.header {
+   background-color: $dark-black-color;
+   &__container {
+      padding: 10px;
+   }
+
+   &__inner {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+   }
+
+   &__title-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+
+      width: 295px;
+   }
+
+   &__title-icon {
+      width: 40px;
+      height: 40px;
+
+      color: $yellow-color;
+   }
+
+   &__title-text {
+      font-size: 24px;
+      color: $yellow-color;
+
+   }
+}

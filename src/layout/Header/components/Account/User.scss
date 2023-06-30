@@ -1,0 +1,39 @@
+@import "../../../../scss/variables";
+
+.user {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   
+   &__info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 5px;
+   }
+
+   &__name {
+      color: $white-color;
+   }
+
+   &__email {
+      color: $yellow-color;
+      font-size: 12px;
+   }
+
+   &__avatar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+      min-width: 40px;
+      min-height: 40px;
+      border-radius: 50%;
+   
+      background-color: $yellow-color;
+   
+      cursor: pointer;
+   }
+
+}

@@ -1,0 +1,17 @@
+@import '../../../../scss/variables';
+
+.global-crypto-stats-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   
+   &__text {
+      color: $white-color;
+   }
+
+   &__value {
+      color: $white-color;
+   }
+}

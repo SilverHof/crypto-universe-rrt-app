@@ -1,0 +1,63 @@
+@import '../../../scss/variables';
+
+.cryptocurrency-item {
+   display: flex;
+   align-items: center;
+
+   background-color: $dark-black-color;
+   padding: 10px 20px;
+   border-radius: 10px;
+
+   color: $white-color;
+
+
+   &__rank {
+      width: 5%;
+   }
+
+   &__currency {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+   }
+
+   &__currency-icon {
+      width: 30px;
+      height: 30px;
+   }
+
+   &__currency-short-name {
+      color: $yellow-color;
+   }
+
+   &__currency-full-name {
+      
+   }
+
+   &__price {
+      width: 15%;
+   }
+
+   &__change {
+      width: 20%;
+      color: $green-color;
+      &_red {
+         width: 20%;
+         color: $red-color;
+      }
+   }
+
+   &__market-cap {
+      width: 23%;
+   }
+
+   &__button {
+      width: 7%;
+      border-radius: 5px;
+      padding: 5px 5px;
+
+      background-color: $yellow-color;
+      color: $dark-black-color;
+   }
+}

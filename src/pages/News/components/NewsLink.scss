@@ -1,0 +1,52 @@
+@import '../../../scss/variables';
+
+.news-link {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+
+   background-color: $yellow-color;
+   border-radius: 15px;
+
+   height: 100px;
+   padding: 20px;
+
+   &_red {
+      background-color: $orange-color;
+   }
+
+   
+   &_green {
+      background-color: $bright-green-color;
+   }
+   
+   &_yellow {
+      background-color: $yellow-color;
+   }
+
+   &__content {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
+   }
+
+   &__title {
+      color: $dark-black-color;
+      font-size: 20px;
+   }
+
+   &__arrows {
+      display: flex;
+      align-items: center;
+      margin-top: 2px;
+   }
+
+   &__arrow {
+      // width: 40px;
+      // height: 40px;
+
+
+      color: $dark-black-color;
+   }
+}

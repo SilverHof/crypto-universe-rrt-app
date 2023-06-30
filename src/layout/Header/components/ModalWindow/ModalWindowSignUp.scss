@@ -1,0 +1,116 @@
+@import '../../../../scss/variables';
+
+.modal-window-signup {
+   position: fixed;
+   bottom: 0;
+   width: 100vw;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   backdrop-filter: blur(15px);
+
+   &_open {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 100%;
+   }
+
+   &_close {
+      display: none;
+      height: 0;
+   }
+
+   &__body {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      position: relative;
+
+      padding: 30px;
+      width: 25%;
+
+      border-radius: 20px;
+      background-color: $bright-black-color;
+
+      color: $yellow-color;
+   }
+
+   &__close-button {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $bright-black-color;
+   }
+
+   &__close-button-icon {
+      color: $yellow-color;
+   }
+
+   &__title {
+      font-size: 24px;
+      align-self: center;
+      margin-bottom: 10px;
+   }
+
+   &__form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   &__email {
+      height: 40px;
+      padding: 0px 10px;
+      background-color: $bright-black-color;
+      border: 2px solid $yellow-color;
+      border-radius: 10px;
+
+      color: $white-color;
+   }
+
+   &__password {
+      height: 40px;
+      padding: 0px 10px;
+
+      background-color: $bright-black-color;
+      border: 2px solid $yellow-color;
+      border-radius: 10px;
+
+      color: $white-color;
+
+   }
+
+   &__login-button {
+      align-self: center;
+      padding: 10px 20px;
+
+      border-radius: 10px;
+      background-color: $yellow-color;
+      color: $dark-black-color;
+      font-size: 16px;
+   }
+
+   &__create-account {
+      align-self: center;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+
+      color: $white-color;
+   }
+
+   &__create-account-link {
+      color: $yellow-color;
+   }
+}

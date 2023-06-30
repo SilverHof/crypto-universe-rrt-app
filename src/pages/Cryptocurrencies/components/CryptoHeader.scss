@@ -1,0 +1,30 @@
+@import '../../../scss/variables';
+
+.crypto-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 20px;
+   color: $white-color;
+
+   margin-bottom: 20px;
+   &__rank {
+      width: 5%;
+   }
+
+   &__currency {
+      width: 30%;
+   }
+
+   &__price {
+      width: 15%;
+   }
+
+   &__change {
+      width: 20%;
+   }
+
+   &__market-cap {
+      width: 30%;
+   }
+}

@@ -1,0 +1,31 @@
+@import "../../../../scss/variables";
+
+.dropdown-menu {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   position: absolute;
+   top: 40px;
+   left: 50%;
+   transform: translate(-50%, 0%);
+
+   padding: 10px;
+   border-radius: 20px;
+   background-color: $bright-black-color;
+
+   border: 1px solid $yellow-color;
+   
+   &::before {
+      content: '';
+      position: absolute;
+
+      height: 15px;
+      width: 15px;
+      top: -7.5px;
+
+      rotate: 45deg;
+      background-color: $bright-black-color;
+      border: 1px solid $yellow-color;
+   }
+}

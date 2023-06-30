@@ -1,0 +1,100 @@
+@import '../../scss/variables';
+
+.pagination {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+
+   margin-top: 20px;
+   &__previous-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 100px;
+      height: 30px;
+
+      border-radius: 5px;
+      background-color: $yellow-color;
+      color: $dark-black-color;
+
+      &_disable {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+   
+         width: 100px;
+         height: 30px;
+   
+         border-radius: 5px;
+         background-color: $yellow-color;
+         color: $dark-black-color;
+
+         visibility: hidden;
+      }
+   }
+
+   &__page-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 30px;
+      height: 30px;
+
+      border-radius: 5px;
+      background-color: $dark-black-color;
+      color: $yellow-color;
+
+      transition: 0.5s;
+
+      &_active {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+   
+         width: 30px;
+         height: 30px;
+   
+         border-radius: 5px;
+         background-color: $yellow-color;
+         color: $dark-black-color;
+   
+      }
+
+      &:hover {
+         background-color: $yellow-color;
+         color: $dark-black-color;
+      }
+   }
+
+   &__next-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 100px;
+      height: 30px;
+
+      border-radius: 5px;
+      background-color: $yellow-color;
+      color: $dark-black-color;
+
+
+      &_disable {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+   
+         width: 100px;
+         height: 30px;
+   
+         border-radius: 5px;
+         background-color: $yellow-color;
+         color: $dark-black-color;
+
+         visibility: hidden;
+      }
+   }
+}
